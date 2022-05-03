@@ -7,3 +7,6 @@ Adicionando os primeiros passos na manipulação DOM JavaScripts.
 
 <h2>Verificador de idade</h2>
 O usuário entra com seu ano de nascimento e seu sexo e o retorno é a idade do usuario, o seu sexo. A partir da idade, é retornado também se o usuario é bêbe, criança, adulto ou idoso.
+
+<h2>Pode votar</h2>
+O usuario entra com seu ano de nascimento. A partir dai o programa retorna a mensagem com a sua idade e informa se pode votar, o voto é opcional ou não pode votar.
