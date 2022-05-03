@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+
+<body>
+    <header>
+    <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+           <form>
+               <label for="txtano">Ano de nascimento:</label> 
+            <input type="number" name="txtano" id="txtano" min = "0">
+        </form>
+           
+           <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem"> <!--Botão de marcar redondo-->
+            <label for="fem">Feminino</label> <!--Para escrever o nome-->
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()"> <!--Botão. O onclick serve para disparar o Java script-->
+            </p>
+               
+        </div>
+        <div id="res">
+         Preencha o formulário acima!
+        </div>
+     
+    </section>
+    <footer>
+      <p>&copy;Talita</p>
+    </footer>
+    <script src="script.js">
+        // pra fazer uma pagina a parte script:src
+    </script> 
+
+</body>
+</html>
