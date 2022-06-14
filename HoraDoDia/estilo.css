@@ -5,23 +5,27 @@ font: normal 15pt Arial;
 }
 
 header{
-color: white;
+color: #fff;
 text-align: center; /* alinhamento do texto. Centralizado*/
 
 }
 
 section{
-background-color: white;
-border-radius: 10px;/* O raio da borda. Para deixar as bordas da caixa arredondadas*/
+background-color: #fff;
+border-radius: 10px;
 padding: 15px; /*altura da caixa*/
-width: 500px; /* largura da caixa*/
-margin: auto; /*para centralizar*/
+width: 400px; /* largura da caixa*/
+margin: auto;/* para centralizar */
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.226);/*sombra da caixa*/
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
-footer
-{
-color: white;
+footer{
+color: #fff;
 text-align: center;/* alinhamento do texto. Centralizado*/
 font-style: italic;
 }
+
