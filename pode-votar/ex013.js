@@ -14,11 +14,11 @@ if (year.value.length == 0 || Number (year.value) > ano )  {
 
    // console.log (`Você tem ${idade} anos`)
 if (idade < 16) {
-    res.innerHTML = `Você tem ${idade} anos. Não pode votar`
+    res.innerHTML = `Você tem ${idade} anos e ainda não pode votar.`
 } else  if (idade < 18 || idade > 65){
-    res.innerHTML = `Você tem ${idade} anos. Seu voto é opcional`
+    res.innerHTML = `Você tem ${idade} anos. Seu voto é opcional.`
 }else {
-    res.innerHTML = `Você tem ${idade} anos. Seu voto é obrigatorio`
+    res.innerHTML = `Você tem ${idade} anos. Seu voto é obrigatorio!`
 
     
           
