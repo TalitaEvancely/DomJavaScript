@@ -25,3 +25,23 @@ color: #fff;
 text-align: center;/* alinhamento do texto. Centralizado*/
 font-style: italic;
 }
+
+/*RESPONSIVO*/
+@media screen and (max-width: 750px) {
+    section{
+        width:60% ;
+    }
+ body{
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ } 
+ body img{
+    height: 150px;
+ }
+}
+
+    
+
