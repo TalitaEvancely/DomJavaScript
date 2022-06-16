@@ -39,12 +39,16 @@ margin-top: 20px;
 
 /*RESPONSIVO*/
 
-@media(max-width:360px){
+@media(max-width: 750px){
     section{
-        width:80% ;
+        width:70% ;
     }
  body{
     font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  } 
 
 }
