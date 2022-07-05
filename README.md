@@ -1,7 +1,7 @@
 # DomJavaScript
 
 Adicionando os primeiros passos na manipulação DOM JavaScripts.
-
+#
 ## Verificador de idade 
 - 'Inputs' do com seu ano de nascimento e seu sexo e o programa retorna a mensagem com a sua idade e sexo.
 - A partir da idade, é retornado também se o usuario é bêbe, criança, adulto ou idoso através de imagens.
@@ -24,10 +24,10 @@ Adicionando os primeiros passos na manipulação DOM JavaScripts.
 - Como retorno final esperamos:  Detectamos (gênero) com (idade) anos.
 
 Deploy:https://verificandoidade.netlify.app/
-
+#
 ## Hora do dia
-- O projeto consiste em pegar a hora da maquina local e mostrar ao usuario Bom dia, Boa tarde ou boa noite com uma imagem, de acordo com o horário.</p>
-- 
+- O projeto consiste em pegar a hora da maquina local e mostrar ao usuario 'Bom dia', 'Boa tarde' ou 'boa noite' com uma imagem, de acordo com o horário.</p>
+
 ### Tecnologias utilizadas
 <p>HTML, CSS e JavaScript</p>
 
@@ -46,7 +46,7 @@ Deploy:https://verificandoidade.netlify.app/
 - Cada saudação, uma coloração de 'backgroud' diferente.
 
 Deploy:https://quehoras.netlify.app/
-
+#
 ## Pode votar
 - Input do usuario com seu ano de nascimento. A partir dai o programa retorna a mensagem com a sua idade e informa se pode votar, o voto é opcional ou não pode votar.
 ### Tecnologias utilizadas
